@@ -1,0 +1,25 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: #f0f0f0;
+}
+
+#malla-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 10px;
+  margin: 20px;
+  padding: 10px;
+}
+
+.celda {
+  background: white;
+  border: 2px solid #ccc;
+  padding: 20px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.celda:hover {
+  background: #d0f0d0;
+}
